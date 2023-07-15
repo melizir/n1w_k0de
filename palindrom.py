@@ -3,10 +3,10 @@ reverse=s[::-1]
 def palindrom(s):
     while True:
         if s[::1]==reverse:
-            print(s,"is palindrome ")
+            print("True")
             break
         if s!=reverse:
-            print(s,"not a palindrome !")
+            print("False")
             continue 
             
 print(palindrom(s))   
